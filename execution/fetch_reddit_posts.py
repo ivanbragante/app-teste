@@ -6,6 +6,10 @@ import sys
 import os
 import datetime
 
+# Add the current directory to sys.path to import db_manager
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from db_manager import db_manager
+
 LOG_FILE = 'logs/activities.jsonl'
 
 def log_activity(level, message, data=None):
@@ -135,6 +139,17 @@ def main():
         except Exception as e:
             print(f"Error saving to JSON: {e}")
             log_activity('ERROR', "Failed to save to JSON", {'error': str(e)})
+
+    # Save to MongoDB
+    try:
+        if db_manager.client:
+            print("Saving results to MongoDB...")
+            for subreddit, posts in results.items():
+                db_manager.save_posts(subreddit, posts)
+            log_activity('INFO', "Results saved to MongoDB")
+    except Exception as e:
+        print(f"Error saving to MongoDB: {e}")
+        log_activity('ERROR', "Failed to save to MongoDB", {'error': str(e)})
 
     log_activity('INFO', "Execution completed")
 

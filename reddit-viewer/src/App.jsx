@@ -8,7 +8,8 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
 
   const fetchData = () => {
-    fetch('/data.json?t=' + new Date().getTime())
+    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    fetch(`${apiUrl}/data?t=` + new Date().getTime())
       .then(res => res.json())
       .then(jsonData => {
         setData(jsonData);

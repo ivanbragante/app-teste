@@ -4,6 +4,10 @@ import subprocess
 import os
 import sys
 
+# Add execution directory to sys.path to import db_manager
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'execution'))
+from db_manager import db_manager
+
 app = Flask(__name__)
 
 # Configure CORS
@@ -42,6 +46,18 @@ def refresh_data():
             "output": e.stdout, 
             "error_output": e.stderr
         }), 500
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@app.route('/data', methods=['GET'])
+def get_data():
+    try:
+        if not db_manager.client:
+            return jsonify({"status": "error", "message": "Database not connected"}), 500
+            
+        subreddits = ['n8n', 'automation']
+        data = db_manager.get_latest_posts(subreddits)
+        return jsonify(data), 200
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
 

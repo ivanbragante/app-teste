@@ -1,0 +1,3 @@
+DATABASE_URL=mongodb+srv://programacao_db_user:<db_password>@cluster0.zdn1hpw.mongodb.net/?appName=Cluster0
+PORT=8000
+ALLOWED_ORIGINS=*
