@@ -15,7 +15,8 @@ class DatabaseManager:
             return
         
         try:
-            self.client = MongoClient(self.connection_string)
+            # Set a timeout so it doesn't hang forever if the connection fails
+            self.client = MongoClient(self.connection_string, serverSelectionTimeoutMS=5000)
             self.db = self.client['reddit_insights']
             self.collection = self.db['posts']
             # Test connection
@@ -23,6 +24,8 @@ class DatabaseManager:
             print("Successfully connected to MongoDB Atlas.")
         except Exception as e:
             print(f"Error connecting to MongoDB: {e}")
+            if "SSL handshake failed" in str(e):
+                print("HINT: This is likely an IP Whitelist issue. Ensure 0.0.0.0/0 is allowed in MongoDB Atlas.")
             self.client = None
 
     def save_posts(self, subreddit, posts):
