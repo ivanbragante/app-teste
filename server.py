@@ -3,6 +3,10 @@ from flask_cors import CORS
 import subprocess
 import os
 import sys
+from dotenv import load_dotenv
+
+# Load .env file for local development
+load_dotenv()
 
 # Add execution directory to sys.path to import db_manager
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'execution'))
@@ -13,7 +17,8 @@ app = Flask(__name__)
 # Configure CORS
 allowed_origins = os.environ.get("ALLOWED_ORIGINS", "*")
 if allowed_origins != "*":
-    allowed_origins = allowed_origins.split(",")
+    # Split and strip to handle spaces and trailing slashes
+    allowed_origins = [o.strip().rstrip('/') for o in allowed_origins.split(",")]
 
 CORS(app, origins=allowed_origins)
 

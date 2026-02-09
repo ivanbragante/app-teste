@@ -1,6 +1,10 @@
 import os
 import datetime
 from pymongo import MongoClient
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
 
 class DatabaseManager:
     def __init__(self):
