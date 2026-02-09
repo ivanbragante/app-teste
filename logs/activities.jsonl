@@ -1,0 +1,54 @@
+{"timestamp": "2026-02-09T08:28:29.876071", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n']", "data": null}
+{"timestamp": "2026-02-09T08:28:29.877071", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T08:28:31.093467", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 10, "top_posts": 2}}
+{"timestamp": "2026-02-09T08:28:33.097895", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Results saved to JSON", "data": {"path": ".tmp\\reddit_log_test.json"}}
+{"timestamp": "2026-02-09T08:28:33.098762", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T08:36:19.632195", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n']", "data": null}
+{"timestamp": "2026-02-09T08:36:19.634161", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T08:36:20.594108", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 1, "top_posts": 1}}
+{"timestamp": "2026-02-09T08:36:22.595941", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T08:38:31.232794", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T08:38:31.234794", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T08:38:33.578089", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T08:38:35.579814", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T08:38:38.548383", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T08:38:40.574670", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Results saved to JSON", "data": {"path": ".tmp\\reddit_latest.json"}}
+{"timestamp": "2026-02-09T08:38:40.575635", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T08:46:12.651053", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T08:46:12.652055", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T08:46:15.790626", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T08:46:17.791892", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T08:46:20.468247", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T08:46:22.486501", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Results saved to JSON", "data": {"path": "reddit-viewer/public/data.json"}}
+{"timestamp": "2026-02-09T08:46:22.486501", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T08:50:37.455103", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T08:50:37.456101", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T08:50:39.669863", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T08:50:41.672182", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T08:50:44.447912", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T08:50:46.469694", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Results saved to JSON", "data": {"path": "reddit-viewer/public/data.json"}}
+{"timestamp": "2026-02-09T08:50:46.469694", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T09:00:21.621454", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T09:00:21.624481", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T09:00:23.985784", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:00:25.987042", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T09:00:30.457322", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:00:32.482884", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Results saved to JSON", "data": {"path": "reddit-viewer/public/data.json"}}
+{"timestamp": "2026-02-09T09:00:32.482884", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T09:25:56.632400", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T09:25:56.633688", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T09:25:59.596028", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:26:01.598008", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T09:26:04.618813", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:26:06.701212", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Results saved to JSON", "data": {"path": "reddit-viewer/public/data.json"}}
+{"timestamp": "2026-02-09T09:26:06.701212", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Execution completed", "data": null}
+{"timestamp": "2026-02-09T09:26:44.579909", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T09:26:44.579909", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T09:26:47.289209", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:26:49.290633", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T09:26:51.859967", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:27:10.594784", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Starting Reddit fetch for: ['n8n', 'automation']", "data": null}
+{"timestamp": "2026-02-09T09:27:10.595803", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/n8n", "data": null}
+{"timestamp": "2026-02-09T09:27:12.760370", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/n8n", "data": {"posts_fetched": 100, "top_posts": 5}}
+{"timestamp": "2026-02-09T09:27:14.761420", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Fetching posts from r/automation", "data": null}
+{"timestamp": "2026-02-09T09:27:17.553373", "script": "fetch_reddit_posts.py", "level": "INFO", "message": "Analyzed r/automation", "data": {"posts_fetched": 100, "top_posts": 5}}

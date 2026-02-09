@@ -1,0 +1,96 @@
+{
+    "n8n": [
+        {
+            "title": "things i learned after 2 years of n8n client work",
+            "url": "https://www.reddit.com/r/n8n/comments/1qyvqig/things_i_learned_after_2_years_of_n8n_client_work/",
+            "permalink": "https://www.reddit.com/r/n8n/comments/1qyvqig/things_i_learned_after_2_years_of_n8n_client_work/",
+            "ups": 193,
+            "num_comments": 28,
+            "created_utc": 1770514574.0,
+            "engagement": 221
+        },
+        {
+            "title": "my n8n AI agent burned $63 in API credits retrying the same failed node 800 times overnight",
+            "url": "https://www.reddit.com/r/n8n/comments/1qy9eyv/my_n8n_ai_agent_burned_63_in_api_credits_retrying/",
+            "permalink": "https://www.reddit.com/r/n8n/comments/1qy9eyv/my_n8n_ai_agent_burned_63_in_api_credits_retrying/",
+            "ups": 58,
+            "num_comments": 53,
+            "created_utc": 1770456203.0,
+            "engagement": 111
+        },
+        {
+            "title": "I tried “vibe coding” a full SaaS with Claude + n8n — this surprised me",
+            "url": "https://www.reddit.com/r/n8n/comments/1qxyic9/i_tried_vibe_coding_a_full_saas_with_claude_n8n/",
+            "permalink": "https://www.reddit.com/r/n8n/comments/1qxyic9/i_tried_vibe_coding_a_full_saas_with_claude_n8n/",
+            "ups": 24,
+            "num_comments": 29,
+            "created_utc": 1770422962.0,
+            "engagement": 53
+        },
+        {
+            "title": "Anyone using Antigravity to build workflows?",
+            "url": "https://www.reddit.com/r/n8n/comments/1qyhw2f/anyone_using_antigravity_to_build_workflows/",
+            "permalink": "https://www.reddit.com/r/n8n/comments/1qyhw2f/anyone_using_antigravity_to_build_workflows/",
+            "ups": 33,
+            "num_comments": 19,
+            "created_utc": 1770480973.0,
+            "engagement": 52
+        },
+        {
+            "title": "Invoice processing with n8n - anyone automated AP/AR workflows?",
+            "url": "https://www.reddit.com/r/n8n/comments/1qz6cdt/invoice_processing_with_n8n_anyone_automated_apar/",
+            "permalink": "https://www.reddit.com/r/n8n/comments/1qz6cdt/invoice_processing_with_n8n_anyone_automated_apar/",
+            "ups": 15,
+            "num_comments": 32,
+            "created_utc": 1770549175.0,
+            "engagement": 47
+        }
+    ],
+    "automation": [
+        {
+            "title": "LinkedIn restricted my account 3 times in a year - what finally worked",
+            "url": "https://www.reddit.com/r/automation/comments/1qxfl8r/linkedin_restricted_my_account_3_times_in_a_year/",
+            "permalink": "https://www.reddit.com/r/automation/comments/1qxfl8r/linkedin_restricted_my_account_3_times_in_a_year/",
+            "ups": 232,
+            "num_comments": 23,
+            "created_utc": 1770378797.0,
+            "engagement": 255
+        },
+        {
+            "title": "From 'I should automate this' to actually doing it - my 2025-2026 journey and what finally worked",
+            "url": "https://www.reddit.com/r/automation/comments/1qvpdbb/from_i_should_automate_this_to_actually_doing_it/",
+            "permalink": "https://www.reddit.com/r/automation/comments/1qvpdbb/from_i_should_automate_this_to_actually_doing_it/",
+            "ups": 38,
+            "num_comments": 17,
+            "created_utc": 1770213773.0,
+            "engagement": 55
+        },
+        {
+            "title": "Need advice on automating marketing reports that require SQL",
+            "url": "https://www.reddit.com/r/automation/comments/1qwj6yh/need_advice_on_automating_marketing_reports_that/",
+            "permalink": "https://www.reddit.com/r/automation/comments/1qwj6yh/need_advice_on_automating_marketing_reports_that/",
+            "ups": 27,
+            "num_comments": 18,
+            "created_utc": 1770292092.0,
+            "engagement": 45
+        },
+        {
+            "title": "Using an AI call assistant unexpectedly doubled our sales",
+            "url": "https://www.reddit.com/r/automation/comments/1qvhuv8/using_an_ai_call_assistant_unexpectedly_doubled/",
+            "permalink": "https://www.reddit.com/r/automation/comments/1qvhuv8/using_an_ai_call_assistant_unexpectedly_doubled/",
+            "ups": 20,
+            "num_comments": 23,
+            "created_utc": 1770189089.0,
+            "engagement": 43
+        },
+        {
+            "title": "I finally found the workflow to replicate ANY image style using Nano Banana Pro! And I’m literally selling it as an IG portrait service",
+            "url": "https://www.reddit.com/r/automation/comments/1qwpzmb/i_finally_found_the_workflow_to_replicate_any/",
+            "permalink": "https://www.reddit.com/r/automation/comments/1qwpzmb/i_finally_found_the_workflow_to_replicate_any/",
+            "ups": 29,
+            "num_comments": 8,
+            "created_utc": 1770309099.0,
+            "engagement": 37
+        }
+    ]
+}
